@@ -1,0 +1,28 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "mysql",
+            "username": "sqluser",
+            "database": "mysqlDB"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "database-chorot1.ce55bufsw2rfus-east-1.rds.amazonaws.com",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "connecting",
+            "database": "Student",
+            "username": "admin"
+        }
+    ]
+}
